@@ -1,0 +1,16 @@
+{
+  "name": "calendar-booking-api-spec",
+  "version": "1.0.0",
+  "description": "TypeSpec API specification for a Calendly-like calendar booking service",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsp compile .",
+    "watch": "tsp compile . --watch"
+  },
+  "devDependencies": {
+    "@typespec/compiler": "^1.13.0",
+    "@typespec/http": "^1.13.0",
+    "@typespec/openapi3": "^1.13.0"
+  }
+}
